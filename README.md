@@ -1,4 +1,4 @@
-### Getting Started
+# Getting Started
 
 This is a simple online video player made with React using YouTube API
 To use this project you will need your own YouTube API key.
