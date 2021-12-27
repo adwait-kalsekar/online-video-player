@@ -19,5 +19,3 @@ npm start
 
 ```
 Go to http://localhost:8080/ or your configured node server.
-
-You can access the demo website at https://adwait-kalsekar.github.io/online-video-player/
