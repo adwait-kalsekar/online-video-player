@@ -1,25 +1,21 @@
-# ReduxSimpleStarter
-
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
 ### Getting Started
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+This is a simple online video player made with React using YouTube API
+To use this project you will need your own YouTube API key.
+To generate API key follow the steps on https://developers.google.com/youtube/registering_an_application
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> git clone https://github.com/adwait-kalsekar/online-video-player.git
+> cd online-video-player  
 > npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
 ```
-> npm install
-> npm start
+Once all the dependencies have been resolved, go to src/index.js and comment out 'import YOUTUBE_API_KEY from '../api_keys';'
+Replace YOUTUBE_API_KEY in the next line with your own API key
+
 ```
+
+> npm start
+
+```
+Go to http://localhost:8080/ or your configured node server

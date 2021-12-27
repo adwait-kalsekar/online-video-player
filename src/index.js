@@ -19,7 +19,7 @@ class App extends Component {
       selectedVideo: null,
     };
 
-    this.videoSearch("Honest Indian Weddings");
+    this.videoSearch("Cryptocurrency");
   }
 
   videoSearch(term) {
